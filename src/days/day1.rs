@@ -40,7 +40,6 @@ pub fn day1() {
 
         let first_digit = get_value(line.chars(), false);
         let last_digit = get_value(line.chars().rev(), true);
-        println!("{}{} for {}", first_digit, last_digit, line);
 
         acc + (first_digit * 10) + last_digit
     });
