@@ -24,7 +24,7 @@ pub fn day2() {
             return acc;
         }
 
-        let mut components = game.split(':');
+        let components = game.split(':'); //Make this mut for part 1
         //let game_id = components.next().expect("Expected game").split(' ').last().expect("Expected game id"); //For part 1
         //let id = game_id.parse::<u32>().expect("ID was not a number"); //For part 1
 
